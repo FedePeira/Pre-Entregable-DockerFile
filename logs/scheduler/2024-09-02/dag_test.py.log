@@ -183,3 +183,10 @@ DETAIL:  Key (name)=(can_delete) already exists.
 [2024-09-02T15:36:03.442+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:03.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-09-02T15:36:03.467+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:03.466+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
 [2024-09-02T15:36:03.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.102 seconds
+[2024-09-02T15:36:33.727+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:36:33.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:36:33.730+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:33.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:36:33.756+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:36:33.788+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:33.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:36:33.812+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:33.812+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:36:33.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.115 seconds
