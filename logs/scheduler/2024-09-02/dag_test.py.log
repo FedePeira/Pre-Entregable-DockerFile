@@ -1,0 +1,185 @@
+[2024-09-02T15:23:54.446+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:23:54.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:23:54.448+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:23:54.503+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:23:54.807+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.805+0000] {override.py:1677} ERROR - Add Permission: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ab_permission_name_uq"
+DETAIL:  Key (name)=(can_delete) already exists.
+
+[SQL: INSERT INTO ab_permission (name) VALUES (%(name)s) RETURNING ab_permission.id]
+[parameters: {'name': 'can_delete'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2024-09-02T15:23:54.815+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.814+0000] {override.py:1829} INFO - Created Permission View: None on DAG:microdesafio_semana_10
+[2024-09-02T15:23:54.828+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.828+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:microdesafio_semana_10
+[2024-09-02T15:23:54.836+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.836+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:microdesafio_semana_10
+[2024-09-02T15:23:54.837+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.837+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:23:54.850+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.849+0000] {dag.py:3118} INFO - Creating ORM DAG for microdesafio_semana_10
+[2024-09-02T15:23:54.861+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:23:54.860+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:23:54.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.439 seconds
+[2024-09-02T15:24:25.119+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:24:25.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:24:25.122+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:24:25.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:24:25.150+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:24:25.182+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:24:25.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:24:25.233+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:24:25.233+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:24:25.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.168 seconds
+[2024-09-02T15:24:55.512+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:24:55.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:24:55.514+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:24:55.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:24:55.535+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:24:55.562+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:24:55.561+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:24:55.586+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:24:55.586+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:24:55.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.103 seconds
+[2024-09-02T15:25:25.751+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:25:25.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:25:25.754+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:25:25.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:25:25.775+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:25:25.803+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:25:25.802+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:25:25.825+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:25:25.824+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:25:25.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.099 seconds
+[2024-09-02T15:25:56.092+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:25:56.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:25:56.095+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:25:56.094+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:25:56.116+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:25:56.147+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:25:56.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:25:56.173+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:25:56.173+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:25:56.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.108 seconds
+[2024-09-02T15:26:26.455+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:26:26.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:26:26.457+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:26:26.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:26:26.478+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:26:26.504+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:26:26.504+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:26:26.527+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:26:26.527+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:26:26.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.095 seconds
+[2024-09-02T15:26:56.813+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:26:56.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:26:56.816+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:26:56.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:26:56.837+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:26:56.865+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:26:56.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:26:56.887+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:26:56.886+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:26:56.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.097 seconds
+[2024-09-02T15:27:27.179+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:27:27.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:27:27.182+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:27:27.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:27:27.203+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:27:27.230+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:27:27.230+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:27:27.252+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:27:27.252+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:27:27.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.098 seconds
+[2024-09-02T15:27:57.558+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:27:57.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:27:57.560+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:27:57.560+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:27:57.584+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:27:57.616+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:27:57.616+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:27:57.638+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:27:57.638+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:27:57.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.113 seconds
+[2024-09-02T15:28:27.934+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:28:27.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:28:27.936+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:28:27.936+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:28:27.958+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:28:27.985+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:28:27.985+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:28:28.009+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:28:28.009+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:28:28.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.106 seconds
+[2024-09-02T15:28:58.390+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:28:58.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:28:58.392+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:28:58.392+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:28:58.415+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:28:58.444+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:28:58.444+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:28:58.469+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:28:58.468+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:28:58.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.104 seconds
+[2024-09-02T15:29:28.718+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:29:28.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:29:28.720+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:29:28.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:29:28.743+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:29:28.772+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:29:28.772+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:29:28.798+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:29:28.798+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:29:28.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.112 seconds
+[2024-09-02T15:29:59.090+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:29:59.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:29:59.092+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:29:59.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:29:59.116+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:29:59.147+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:29:59.147+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:29:59.172+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:29:59.172+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:29:59.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.108 seconds
+[2024-09-02T15:30:29.433+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:30:29.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:30:29.435+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:30:29.435+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:30:29.457+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:30:29.484+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:30:29.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:30:29.504+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:30:29.504+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:30:29.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.093 seconds
+[2024-09-02T15:30:59.790+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:30:59.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:30:59.792+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:30:59.792+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:30:59.814+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:30:59.845+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:30:59.845+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:30:59.876+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:30:59.876+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:30:59.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.120 seconds
+[2024-09-02T15:31:30.160+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:31:30.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:31:30.162+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:31:30.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:31:30.184+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:31:30.212+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:31:30.211+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:31:30.235+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:31:30.234+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:31:30.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.102 seconds
+[2024-09-02T15:32:00.512+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:32:00.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:32:00.515+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:32:00.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:32:00.536+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:32:00.563+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:32:00.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:32:00.586+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:32:00.586+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:32:00.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.098 seconds
+[2024-09-02T15:32:30.858+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:32:30.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:32:30.860+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:32:30.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:32:30.882+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:32:30.911+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:32:30.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:32:30.935+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:32:30.935+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:32:30.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.101 seconds
+[2024-09-02T15:33:01.230+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:33:01.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:33:01.233+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:33:01.233+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:33:01.252+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:33:01.282+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:33:01.281+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:33:01.305+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:33:01.305+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:33:01.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.101 seconds
+[2024-09-02T15:33:31.588+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:33:31.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:33:31.591+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:33:31.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:33:31.613+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:33:31.640+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:33:31.639+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:33:31.663+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:33:31.662+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:33:31.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.098 seconds
+[2024-09-02T15:34:02.023+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:34:02.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:34:02.025+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:34:02.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:34:02.046+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:34:02.076+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:34:02.075+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:34:02.099+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:34:02.098+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:34:02.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.100 seconds
+[2024-09-02T15:34:32.373+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:34:32.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:34:32.375+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:34:32.375+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:34:32.397+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:34:32.423+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:34:32.423+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:34:32.445+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:34:32.444+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:34:32.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.096 seconds
+[2024-09-02T15:35:02.712+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:35:02.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:35:02.714+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:35:02.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:35:02.745+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:35:02.787+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:35:02.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:35:02.820+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:35:02.820+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:35:02.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.144 seconds
+[2024-09-02T15:35:33.062+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:35:33.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:35:33.064+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:35:33.064+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:35:33.086+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:35:33.115+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:35:33.115+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:35:33.140+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:35:33.139+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:35:33.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.104 seconds
+[2024-09-02T15:36:03.389+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag_test.py
+[2024-09-02T15:36:03.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_test.py for tasks to queue
+[2024-09-02T15:36:03.391+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:03.391+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:36:03.413+0000] {processor.py:840} INFO - DAG(s) 'microdesafio_semana_10' retrieved from /opt/airflow/dags/dag_test.py
+[2024-09-02T15:36:03.442+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:03.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-09-02T15:36:03.467+0000] {logging_mixin.py:188} INFO - [2024-09-02T15:36:03.466+0000] {dag.py:3954} INFO - Setting next_dagrun for microdesafio_semana_10 to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-09-02T15:36:03.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_test.py took 0.102 seconds

@@ -5,10 +5,10 @@ airflow db migrate
 
 airflow users create \
     --username admin \
-    --firstname anderson \
-    --lastname oca \
+    --firstname federico \
+    --lastname peirano \
     --role Admin \
-    --email andru.ocatorres@gmail.com 
+    --email fedepr2345@gmail.com 
 
 airflow webserver --port 8080
 
